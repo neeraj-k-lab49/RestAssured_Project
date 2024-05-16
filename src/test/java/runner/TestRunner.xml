@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "POC Testing Suite">
+    <test name = "POC Test">
+        <classes>
+            <class name = "tests.GetResources" />
+            <class name = "tests.CreateResources" />
+            <class name = "tests.UpdateResources" />
+            <class name = "tests.DeleteResources" />
+        </classes>
+    </test>
+</suite>
